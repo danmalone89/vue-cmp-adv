@@ -7,8 +7,14 @@
           @click="selectedComponent = 'appBlue', blueCmp()"
           class="btn btn-primary"
         >Load Blue Template</button>
-        <button @click="selectedComponent = 'appGreen'" class="btn btn-success">Load Green Template</button>
-        <button @click="selectedComponent = 'appRed'" class="btn btn-danger">Load Red Template</button>
+        <button
+          @click="selectedComponent = 'appGreen', greenCmp()"
+          class="btn btn-success"
+        >Load Green Template</button>
+        <button
+          @click="selectedComponent = 'appRed', redCmp()"
+          class="btn btn-danger"
+        >Load Red Template</button>
         <hr>
         <component :is="selectedComponent">{{selectedData}}</component>
         <!-- <app-blue>
