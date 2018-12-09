@@ -1,6 +1,6 @@
-# vue-cli
+# vue-adv-cmp
 
-> A Vue.js project
+> A Vue.js project demonstrating advanced component uses. 
 
 ## Build Setup
 
